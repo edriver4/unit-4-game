@@ -50,11 +50,15 @@ function addValue(clickedCrystal) {
 $("#blue").click(function() {
     addValue(crystals.blue)
 })
-// This function adds the value of the blue crystal which is then added to the user's current score when the the crystal is clicked.
+// This function adds the value of the red crystal which is then added to the user's current score when the the crystal is clicked.
 $("#red").click(function() {
     addValue(crystals.red)
 })
-// This function adds the value of the blue crystal which is then added to the user's current score when the the crystal is clicked.
+// This function adds the value of the purple crystal which is then added to the user's current score when the the crystal is clicked.
 $("#purple").click(function() {
     addValue(crystals.purple)
+})
+// This function adds the value of the diamond crystal which is then added to the user's current score when the the crystal is clicked.
+$("#diamond").click(function() {
+    addValue(crystals.diamond)
 })
