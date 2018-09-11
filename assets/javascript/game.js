@@ -46,11 +46,15 @@ function addValue(clickedCrystal) {
     currentScore += clickedCrystal.value
     $("#currentScore").text("Your Score:" + currentScore);
 }
-
+// This function adds the value of the blue crystal which goes to the user's current score when it is clicked.
 $("#blue").click(function() {
     addValue(crystals.blue)
 })
-
+// This function adds the value of the blue crystal which is then added to the user's current score when the the crystal is clicked.
 $("#red").click(function() {
     addValue(crystals.red)
+})
+// This function adds the value of the blue crystal which is then added to the user's current score when the the crystal is clicked.
+$("#purple").click(function() {
+    addValue(crystals.purple)
 })
