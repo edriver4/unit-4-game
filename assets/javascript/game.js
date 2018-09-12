@@ -51,7 +51,8 @@ function addValue(clickedCrystal) {
         $("#wins").text("Wins: " + wins);
         resetGame();
     }else if(currentScore > targetScore){
-        $("#losses").text("Losses: " + losses++);
+        losses++;
+        $("#losses").text("Losses: " + losses);
         resetGame();
     }
 }
